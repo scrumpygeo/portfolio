@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(100, 100, 100);
+}
+
+.intro {
+  background-color: #ece49a;
+  box-shadow: 2px 4px 5px #e8f1f5;
+  margin: 20px 15px 20px 15px;
+  height: 23vh;
+}
+
+.intro:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.intro h2 {
+  padding-top: 10px;
+}
+.intro h2,
+p {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .intro {
+    height: 30vh;
+  }
+}
