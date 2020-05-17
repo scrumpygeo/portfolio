@@ -13,7 +13,9 @@
     <!-- Bootstrap & Fontawesome CSS only! -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
     />
     <link
       rel="stylesheet"
@@ -44,18 +46,27 @@
         <a href="https://room-share-scrumpeggio.herokuapp.com/">
           <div
             class="card"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Rails room sharing app using devise and pundit for authentication and authorization and mapbox-gl for maps."
             style="background-image: url('images/roomshare.png');"
           ></div>
         </a>
         <a href="https://scrumpygeo-cocktails.herokuapp.com/">
           <div
             class="card"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Rails cookbook for cocktail recipes."
             style="background-image: url('images/cocktail.png');"
           ></div>
         </a>
         <a href="https://react-contract-locations.herokuapp.com/">
           <div
             class="card"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="List of former contract locations using flexbox, grid and mapbox-gl."
             style="background-image: url('images/contract-locations.png');"
           ></div>
         </a>
@@ -63,23 +74,41 @@
         <a href="https://daily-motions.herokuapp.com/">
           <div
             class="card"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="React app using Dailymotion api."
             style="background-image: url('images/dailymotions.png');"
           ></div>
         </a>
         <a href="https://shielded-lake-09765.herokuapp.com/login">
           <div
             class="card"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="React app with login for storing contact information."
             style="background-image: url('images/contactvault.png');"
           ></div>
         </a>
       </div>
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <!-- Popper.js (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Bootstrap JavaScript library-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // init tooltips
+      $('[data-toggle="tooltip"]').tooltip();
+    </script>
   </body>
 </html>
