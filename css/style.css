@@ -46,6 +46,7 @@ p {
 .text-primary {
   color: var(--primary-color);
 }
+
 .text-secondary {
   color: var(--secondary-color);
 }
@@ -80,16 +81,19 @@ p {
   background: var(--secondary-color);
   color: var(--primary-color);
 }
+
 .btn-tertiary,
 .bg-tertiary {
   background: var(--tertiary-color);
   color: var(--primary-color);
 }
+
 .btn-dark,
 .bg-dark {
   background: var(--dark-color);
   color: white;
 }
+
 .btn-light,
 .bg-light {
   background: var(--light-color);
@@ -110,7 +114,7 @@ p {
   height: 100%;
 }
 
-.flex-items > div {
+.flex-items>div {
   padding: 6px 20px;
 }
 
@@ -202,6 +206,7 @@ p {
 img {
   width: 100%;
 }
+
 /* ----------------------------------------------------------- */
 /* Navbar */
 .navbar {
@@ -256,6 +261,7 @@ img {
 .hero .content h1 {
   font-size: 55px;
 }
+
 .hero .content p {
   font-size: 23px;
   max-width: 600px;
@@ -293,6 +299,17 @@ img {
   padding: 30px;
 }
 
+.ghub {
+  color: var(--secondary-color);
+  /* background: var(--primary-color); */
+
+}
+
+.ghub:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
 .icons h3 {
   font-weight: bold;
   margin-bottom: 15px;
@@ -310,6 +327,7 @@ img {
 .cases img:hover {
   opacity: 0.7;
 }
+
 
 /* Footer */
 .footer {
@@ -329,7 +347,7 @@ img {
   color: var(--tertiary-color);
 }
 
-.footer .charities > * {
+.footer .charities>* {
   margin-right: 30px;
 }
 
@@ -344,6 +362,7 @@ img {
   .hero.about {
     height: 35vh;
   }
+
   .navbar {
     flex-direction: column;
     height: 120px;
